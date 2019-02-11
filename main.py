@@ -3,9 +3,9 @@ from informador import Informador
 informador = Informador()
 
 informador.scrapping()
-
-print (informador.lista);
-print (len(informador.lista));
+informador.to_json()
+# print (informador.lista);
+# print (len(informador.lista));
 
 
 # import requests
