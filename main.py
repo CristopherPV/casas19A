@@ -2,7 +2,10 @@ from informador import Informador
 
 informador = Informador()
 
-informador.scrapping()
+informador.scrapping('http://aviso.informador.com.mx/index.php/bienes_raices/busqueda?selecciono=0&ciudad_autocomplete=0&colonia_autocomplete=&transaccion=1&tipo=1&consulta=Zona+metropolitana&precio_min=min&precio_max=max&recamaras_min=0&recamaras_max=0&metros_min=0&metros_max=0&quick-search=Zona+metropolitana-&quick-searchZap=Zapopan-3&quick-searchGdl=Guadalajara-2&quick-searchTlaq=Tlaquepaque-5&quick-searchTon=Tonal%C3%A1-4',1)
+informador.scrapping('http://aviso.informador.com.mx/index.php/bienes_raices/busqueda?selecciono=0&ciudad_autocomplete=0&colonia_autocomplete=&transaccion=2&tipo=1&consulta=Zona+metropolitana&precio_min=min&precio_max=max&recamaras_min=0&recamaras_max=0&metros_min=0&metros_max=0&quick-search=Zona+metropolitana-&quick-searchZap=Zapopan-3&quick-searchGdl=Guadalajara-2&quick-searchTlaq=Tlaquepaque-5&quick-searchTon=Tonal%C3%A1-4',2)
+
+
 informador.to_json()
 # print (informador.lista);
 # print (len(informador.lista));
