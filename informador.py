@@ -26,8 +26,11 @@ class Informador:
 
         # print(items)
         casas = items[0].find_all('li')
+        if tipo == 1:
+            self.scrapping_casas(casas)
+        else:
+            self.scrapping_rentas(casas)
 
-        self.scrapping_casas(casas)
 
         paginas = soup.find(class_="pagination")
         #
