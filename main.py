@@ -45,7 +45,7 @@ informador.to_json()
 #     lista.append(casa)
 # print(lista)
 #
-# with open('informador.json', 'w') as archivo:
+# with open('2019-02-01.json', 'w') as archivo:
 #     json.dump(lista, archivo, sort_keys=False, indent=4)
 #
 #
